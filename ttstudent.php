@@ -16,7 +16,7 @@ require_once("headerlogin.php");
   </div>
 
 <?php
-require_once("DataConnection.php");
+require_once("Dataconnection.php");
 $rollno=$_SESSION["rollno"];
 $query="select class from logins where user='$rollno'";
 $result=mysqli_query($con,$query);

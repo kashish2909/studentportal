@@ -15,7 +15,7 @@ require_once("headerloginteach.php");
   </div>
 
 <?php
-require_once("DataConnection.php");
+require_once("Dataconnection.php");
 $tid=$_SESSION["tid"];
 ?>
 <table class="table table-striped" id="myUL">
