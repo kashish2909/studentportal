@@ -56,7 +56,7 @@ require_once('header.php');
                 </div>
                 <div class="pull-right">
                   <h6>
-                    <!-- <a href="#pablo" class="link">Need Help?</a> -->
+                    <a href="forget.php" class="link">Forgot Password?</a>
                   </h6>
                 </div>
             </form>
