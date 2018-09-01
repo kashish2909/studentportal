@@ -1,3 +1,7 @@
+<?php
+if(!isset($_SESSION["tid"]))
+  header("location:index.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,10 +33,6 @@
 <script src="../assets/js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
 </head>
 <body>
-<?php
-if(!isset($_SESSION["tid"]))
-  header("location:index.php");
-?>
 <nav class="navbar navbar-expand-lg bg-primary" style="margin-bottom:0">
   <div class="container">
     <a class="navbar-brand" href="loginteach.php">Portal</a>

@@ -27,7 +27,7 @@ else if($_POST["designation"]=='Teacher')
     {
         $row=mysqli_fetch_array($result);
         $_SESSION["tid"]=$rollno;
-        $_SESSION["namelog"]=$row[5];
+        $_SESSION["namelog"]=$row[2];
         header("location:loginteach.php");
     }
     else

@@ -4,8 +4,9 @@ require_once("headerloginteach.php");
 ?>
 <!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.."> -->
 <div class="form-group">
-    <label for="exampleFormControlSelect2">Select Day</label>
+    <!-- <label for="exampleFormControlSelect2">Select Day</label> -->
     <select class="form-control" id="myInput" onChange="myFunction()">
+      <option>----Select Day----</option>
       <option>Monday</option>
       <option>Tuesday</option>
       <option>Wednesday</option>

@@ -1,9 +1,7 @@
 <?php
-require_once("headerloginteach.php");
-require_once("Dataconnection.php");
 session_start();
+require_once("Dataconnection.php");
 ?>
-
 <?php
 for($i=0;$i<$_POST["count"];$i++)
 {
@@ -19,6 +17,6 @@ for($i=0;$i<$_POST["count"];$i++)
     // echo $_SESSION['sub'];
     $querySelect="insert into data(date,RollNo,Subject,present) values(now(),'$temp3','$temp5','$temp4')";
     $result=mysqli_query($con,$querySelect);
-    header("location:loginteach.php");
 }
+header('location:loginteach.php');
 ?>

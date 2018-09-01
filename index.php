@@ -31,7 +31,7 @@ require_once('header.php');
                       <i class="now-ui-icons users_circle-08"></i>
                     </span>
                   </div>
-                  <input type="text" class="form-control" placeholder="Roll No..." name="rn">
+                  <input type="text" class="form-control" placeholder="Roll No/Teacher ID" name="rn">
                 </div>
                 <div class="input-group no-border input-lg">
                   <div class="input-group-prepend">
